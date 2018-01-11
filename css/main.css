@@ -1,38 +1,39 @@
 html {
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  background-color: #0F4062;
+  background-color: #0f4062;
 }
 
 h1 {
   font-family: 'Cinzel Decorative', cursive;
-  color: #0FD4CB;
-  font-size: 2.7rem;
+  color: #0fd4cb;
 }
 
-.btn {
-  background-color: #0FD4CB;
+.btn-light {
+  background-color: #0fd4cb;
   border-radius: 50px;
-  border-color: #0FD4CB;
+  border-color: #0fd4cb;
+  color: #0f4062;
 }
 
-.btn:hover {
-  background-color: #E3671E;
+.btn-light:hover {
+  background-color: #e3671e;
   border-radius: 50px;
-  border-color: #E3671E;
+  border-color: #e3671e;
+  color: #0f4062;
 }
 
 a {
   text-decoration: none;
-  color: #0F4062;
+  color: #0f4062;
 }
 
 a:hover {
-  color: #E3671E;
+  color: #e3671e;
 }
 
 .copywright {
-  color: #0F4062;
+  color: #0f4062;
 }
 
 footer {
@@ -48,14 +49,14 @@ nav {
 }
 
 .btn-apply {
-  background-color: #0FD4CB;
-  border-color: #0FD4CB;
+  background-color: #0fd4cb;
+  border-color: #0fd4cb;
   color: #fff;
 }
 
 .btn-apply:hover {
-  background-color: #E3671E;
-  border-color: #E3671E;
+  background-color: #e3671e;
+  border-color: #e3671e;
   color: #fff;
 }
 
