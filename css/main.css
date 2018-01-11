@@ -1,0 +1,92 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #0F4062;
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #0FD4CB;
+  font-size: 2.7rem;
+}
+
+.btn {
+  background-color: #0FD4CB;
+  border-radius: 50px;
+  border-color: #0FD4CB;
+}
+
+.btn:hover {
+  background-color: #E3671E;
+  border-radius: 50px;
+  border-color: #E3671E;
+}
+
+a {
+  text-decoration: none;
+  color: #0F4062;
+}
+
+a:hover {
+  color: #E3671E;
+}
+
+.copywright {
+  color: #0F4062;
+}
+
+footer {
+  background-color: #fff;
+}
+
+nav {
+  background-color: #fff;
+}
+
+.logo {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.btn-apply {
+  background-color: #0FD4CB;
+  border-color: #0FD4CB;
+  color: #fff;
+}
+
+.btn-apply:hover {
+  background-color: #E3671E;
+  border-color: #E3671E;
+  color: #fff;
+}
+
+.hover-box {
+  color: #fff;
+}
+
+.hover-box-caption {
+  bottom: -8em;
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-caption,
+.hover-box:focus .hover-box-caption {
+  bottom: 0;
+}
+
+.hover-box-img {
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  filter: brightness(50%);
+  transform: scale(1.1);
+}
+
+.hover-box:focus {
+  z-index: 10;
+}
+
+.banner {
+  filter: brightness(50%);
+}
