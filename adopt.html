@@ -31,393 +31,395 @@
     </nav>
   </header>
 
-  <form>
-    <header class="pad-t-2 gutter">
-      <h1 class="tena">Adoption and Gift Center</h1>
-      <p class="mega">All orders shipped via standard USPS (7-10 days) and does not offer expedited shipping options.</p>
-    </header>
-    <fieldset>
-      <legend class="giga">ADOPT</legend>
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2 pad-b gutter">
-          <label for="package">Package: *</label>
-          <select name="package" id="package">
-            <option>100$ Tropical Plush Adoption Kit</option>
-            <option>75$ Gift Pack Adoption</option>
-            <option>50$ Plush Adoption</option>
-            <option>30$ Cookie Cutter Adoption</option>
-          </select>
-        </div>
+  <main role="main" id="main" tabindex="0">
+    <form method="POST" action="https://formspree.io/somm0032@algonquinlive.com">
+      <div class="pad-t-2 gutter">
+        <h1 class="tena">Adoption and Gift Center</h1>
+        <p class="mega">All orders shipped via standard USPS (7-10 days) and does not offer expedited shipping options.</p>
       </div>
-    </fieldset>
-    <fieldset>
-      <legend class="giga">OPTIONS</legend>
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2 gutter">
-          <label for="adoption-name">Adoption Certificate Name: *</label>
-          <input name="adoption-name" id="adoption-name">
+      <fieldset>
+        <legend class="giga">ADOPT</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2 pad-b gutter">
+            <label for="package">Package: *</label>
+            <select name="package" id="package">
+              <option>100$ Tropical Plush Adoption Kit</option>
+              <option>75$ Gift Pack Adoption</option>
+              <option>50$ Plush Adoption</option>
+              <option>30$ Cookie Cutter Adoption</option>
+            </select>
+          </div>
         </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter">
-          <p>Gift Box:</p>
+      </fieldset>
+      <fieldset>
+        <legend class="giga">OPTIONS</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2 gutter">
+            <label for="adoption-name">Adoption Certificate Name: *</label>
+            <input name="adoption-name" id="adoption-name">
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter">
+            <p>Gift Box:</p>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter">
+            <input id="no-wrap" type="radio" name="no-wrap-button">
+            <label for="no-wrap">No Gift Wrap</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter pad-b">
+            <input id="wrap" type="radio" name="wrap-button">
+            <label for="wrap">Please wrap my gift, +$5</label>
+          </div>
         </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter">
-          <input id="no-wrap" type="radio" name="no-wrap-button">
-          <label for="no-wrap">No Gift Wrap</label>
+      </fieldset>
+      <fieldset>
+        <legend class="giga">CUSTOMER E-MAIL</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
+            <p>Enter a valid email address for this order.</p>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter pad-b">
+            <label for="e-mail">E-mail address: *</label>
+            <input name="e-mail" id="e-mail">
+          </div>
         </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter pad-b">
-          <input id="wrap" type="radio" name="wrap-button">
-          <label for="wrap">Please wrap my gift, +$5</label>
+      </fieldset>
+      <fieldset>
+        <legend class="giga">DELIVERY INFORMATION</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
+            <p>Enter your delivery address and information here.</p>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
+            <label for="first-name">*First name:</label>
+            <input name="first-name" id="first-name">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
+            <label for="last-name">*Last name:</label>
+            <input name="last-name" id="last-name">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="street">*Street address:</label>
+            <input name="street" id="street">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="city">*City:</label>
+            <input name="city" id="city">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="country">*Country:</label>
+            <select name="country" id="country">
+              <option>United States</option>
+              <option>Canada</option>
+            </select>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="state">*State/Province:</label>
+            <select name="state" id="state">
+              <option>Alabama</option>
+              <option>Alaska</option>
+              <option>Alberta</option>
+              <option>American Samoa</option>
+              <option>Arizona</option>
+              <option>Arkansas</option>
+              <option>Armed Forces Africa</option>
+              <option>Armed Forces Americas</option>
+              <option>Armed Forces Canada</option>
+              <option>Armed Forces Europe</option>
+              <option>Armed Forces Middle East</option>
+              <option>Armed Forces Pacific</option>
+              <option>British Columbia</option>
+              <option>California</option>
+              <option>Colorado</option>
+              <option>Connecticut</option>
+              <option>Delaware</option>
+              <option>District of Columbia</option>
+              <option>Federated States of Micronesia</option>
+              <option>Florida</option>
+              <option>Georgia</option>
+              <option>Guam</option>
+              <option>Hawaii</option>
+              <option>Idaho</option>
+              <option>Illinois</option>
+              <option>Indiana</option>
+              <option>Iowa</option>
+              <option>Kansas</option>
+              <option>Kentucky</option>
+              <option>Louisiana</option>
+              <option>Maine</option>
+              <option>Manitoba</option>
+              <option>Marshall Islands</option>
+              <option>Maryland</option>
+              <option>Massachusetts</option>
+              <option>Michigan</option>
+              <option>Minnesota</option>
+              <option>Mississippi</option>
+              <option>Missouri</option>
+              <option>Montana</option>
+              <option>Nebraska</option>
+              <option>Nevada</option>
+              <option>New Brunswick</option>
+              <option>New Hampshire</option>
+              <option>New Jersey</option>
+              <option>New Mexico</option>
+              <option>New York</option>
+              <option>Newfoundland</option>
+              <option>North Carolina</option>
+              <option>North Dakota</option>
+              <option>Northern Mariana Islands</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ohio</option>
+              <option>Oklahoma</option>
+              <option>Ontario</option>
+              <option>Oregon</option>
+              <option>Palau</option>
+              <option>Pennsylvania</option>
+              <option>Prince Edward Island</option>
+              <option>Puerto Rico</option>
+              <option>Quebec</option>
+              <option>Rhode Island</option>
+              <option>Saskatchewan</option>
+              <option>South Carolina</option>
+              <option>South Dakota</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Utah</option>
+              <option>Vermont</option>
+              <option>Virgin Islands</option>
+              <option>Virginia</option>
+              <option>Washington</option>
+              <option>West Virginia</option>
+              <option>Wisconsin</option>
+              <option>Wyoming</option>
+              <option>Yukon Territory</option>
+            </select>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
+            <label for="postal">*Postal code:</label>
+            <input name="postal" id="postal">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
+            <label for="phone">Phone number:</label>
+            <input name="phone" id="phone">
+          </div>
         </div>
+      </fieldset>
+      <fieldset>
+        <legend class="giga">BILLING INFORMATION</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
+            <p>Enter your billing address and information here.</p>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter">
+            <input id="billing" type="checkbox">
+            <label for="billing">My billing information is the same as my delivery information.</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="first-name-2">*First name:</label>
+            <input name="first-name-2" id="first-name-2">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="last-name-2">*Last name:</label>
+            <input name="last-name-2" id="last-name-2">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="street-2">*Street address:</label>
+            <input name="street-2" id="street-2">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="city-2">*City:</label>
+            <input name="city-2" id="city-2">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="country-2">*Country:</label>
+            <select name="country-2" id="country-2">
+              <option>United States</option>
+              <option>Canada</option>
+            </select>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
+            <label for="state-2">*State/Province:</label>
+            <select name="state-2" id="state-2">
+              <option>Alabama</option>
+              <option>Alaska</option>
+              <option>Alberta</option>
+              <option>American Samoa</option>
+              <option>Arizona</option>
+              <option>Arkansas</option>
+              <option>Armed Forces Africa</option>
+              <option>Armed Forces Americas</option>
+              <option>Armed Forces Canada</option>
+              <option>Armed Forces Europe</option>
+              <option>Armed Forces Middle East</option>
+              <option>Armed Forces Pacific</option>
+              <option>British Columbia</option>
+              <option>California</option>
+              <option>Colorado</option>
+              <option>Connecticut</option>
+              <option>Delaware</option>
+              <option>District of Columbia</option>
+              <option>Federated States of Micronesia</option>
+              <option>Florida</option>
+              <option>Georgia</option>
+              <option>Guam</option>
+              <option>Hawaii</option>
+              <option>Idaho</option>
+              <option>Illinois</option>
+              <option>Indiana</option>
+              <option>Iowa</option>
+              <option>Kansas</option>
+              <option>Kentucky</option>
+              <option>Louisiana</option>
+              <option>Maine</option>
+              <option>Manitoba</option>
+              <option>Marshall Islands</option>
+              <option>Maryland</option>
+              <option>Massachusetts</option>
+              <option>Michigan</option>
+              <option>Minnesota</option>
+              <option>Mississippi</option>
+              <option>Missouri</option>
+              <option>Montana</option>
+              <option>Nebraska</option>
+              <option>Nevada</option>
+              <option>New Brunswick</option>
+              <option>New Hampshire</option>
+              <option>New Jersey</option>
+              <option>New Mexico</option>
+              <option>New York</option>
+              <option>Newfoundland</option>
+              <option>North Carolina</option>
+              <option>North Dakota</option>
+              <option>Northern Mariana Islands</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ohio</option>
+              <option>Oklahoma</option>
+              <option>Ontario</option>
+              <option>Oregon</option>
+              <option>Palau</option>
+              <option>Pennsylvania</option>
+              <option>Prince Edward Island</option>
+              <option>Puerto Rico</option>
+              <option>Quebec</option>
+              <option>Rhode Island</option>
+              <option>Saskatchewan</option>
+              <option>South Carolina</option>
+              <option>South Dakota</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Utah</option>
+              <option>Vermont</option>
+              <option>Virgin Islands</option>
+              <option>Virginia</option>
+              <option>Washington</option>
+              <option>West Virginia</option>
+              <option>Wisconsin</option>
+              <option>Wyoming</option>
+              <option>Yukon Territory</option>
+            </select>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
+            <label for="postal-2">*Postal code:</label>
+            <input name="postal-2" id="postal-2">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
+            <label for="phone-2">Phone number:</label>
+            <input name="phone-2" id="phone-2">
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="giga">COUPON DISCOUNT</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
+            <p>Enter a coupon code for this order.</p>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
+            <label for="coupon">Coupon code:</label>
+            <input name="coupon" id="coupon">
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter pad-b">
+            <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 btn-light" href="adopt.html">Apply to order</a>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="giga">PAYMENT METHOD</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
+            <p>Your billing information must match the billing address for the credit card entered below or we will be unable to process your payment.</p>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
+            <label for="type">Card Type:</label>
+            <select name="type" id="type">
+              <option>Visa</option>
+              <option>Mastercard</option>
+              <option>Discover</option>
+              <option>American Express</option>
+            </select>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
+            <label for="number">Card Number:</label>
+            <input name="number" id="number">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
+            <label for="date">Expiration Date:</label>
+            <select name="date" id="date">
+              <option>01 - January</option>
+              <option>02 - February</option>
+              <option>03 - March</option>
+              <option>04 - April</option>
+              <option>05 - May</option>
+              <option>06 - June</option>
+              <option>07 - July</option>
+              <option>08 - August</option>
+              <option>09 - September</option>
+              <option>10 - October</option>
+              <option>11 - November</option>
+              <option>12 - December</option>
+            </select>
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 pad-t-2 gutter pad-b">
+            <label for="year"></label>
+            <select name="year" id="year">
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+              <option>2023</option>
+              <option>2024</option>
+              <option>2025</option>
+              <option>2026</option>
+              <option>2027</option>
+              <option>2028</option>
+              <option>2029</option>
+              <option>2030</option>
+              <option>2031</option>
+              <option>2032</option>
+              <option>2033</option>
+              <option>2034</option>
+              <option>2035</option>
+              <option>2036</option>
+              <option>2037</option>
+              <option>2038</option>
+            </select>
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 pad-t gutter pad-b">
+            <label for="cvv">CVV:</label>
+            <input name="cvv" id="cvv">
+          </div>
+        </div>
+      </fieldset>
+      <div class="gutter pad-b-2">
+        <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 btn giga" href="index.html">Submit order</a>
+        <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 btn-ghost giga" href="rescues.html">Cancel</a>
       </div>
-    </fieldset>
-    <fieldset>
-      <legend class="giga">CUSTOMER E-MAIL</legend>
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
-          <p>Enter a valid email address for this order.</p>
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter pad-b">
-          <label for="e-mail">E-mail address: *</label>
-          <input name="e-mail" id="e-mail">
-        </div>
-      </div>
-    </fieldset>
-    <fieldset>
-    <legend class="giga">DELIVERY INFORMATION</legend>
-    <div class="grid">
-      <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
-        <p>Enter your delivery address and information here.<p>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
-        <label for="first-name">*First name:</label>
-        <input name="first-name" id="first-name">
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
-        <label for="last-name">*Last name:</label>
-        <input name="last-name" id="last-name">
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-        <label for="street">*Street address:</label>
-        <input name="street" id="street">
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-        <label for="city">*City:</label>
-        <input name="city" id="city">
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-        <label for="country">*Country:</label>
-        <select name="country" id="country">
-          <option>United States</option>
-          <option>Canada</option>
-        </select>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-        <label for="state">*State/Province:</label>
-        <select name="state" id="state">
-          <option>Alabama</option>
-          <option>Alaska</option>
-          <option>Alberta</option>
-          <option>American Samoa</option>
-          <option>Arizona</option>
-          <option>Arkansas</option>
-          <option>Armed Forces Africa</option>
-          <option>Armed Forces Americas</option>
-          <option>Armed Forces Canada</option>
-          <option>Armed Forces Europe</option>
-          <option>Armed Forces Middle East</option>
-          <option>Armed Forces Pacific</option>
-          <option>British Columbia</option>
-          <option>California</option>
-          <option>Colorado</option>
-          <option>Connecticut</option>
-          <option>Delaware</option>
-          <option>District of Columbia</option>
-          <option>Federated States of Micronesia</option>
-          <option>Florida</option>
-          <option>Georgia</option>
-          <option>Guam</option>
-          <option>Hawaii</option>
-          <option>Idaho</option>
-          <option>Illinois</option>
-          <option>Indiana</option>
-          <option>Iowa</option>
-          <option>Kansas</option>
-          <option>Kentucky</option>
-          <option>Louisiana</option>
-          <option>Maine</option>
-          <option>Manitoba</option>
-          <option>Marshall Islands</option>
-          <option>Maryland</option>
-          <option>Massachusetts</option>
-          <option>Michigan</option>
-          <option>Minnesota</option>
-          <option>Mississippi</option>
-          <option>Missouri</option>
-          <option>Montana</option>
-          <option>Nebraska</option>
-          <option>Nevada</option>
-          <option>New Brunswick</option>
-          <option>New Hampshire</option>
-          <option>New Jersey</option>
-          <option>New Mexico</option>
-          <option>New York</option>
-          <option>Newfoundland</option>
-          <option>North Carolina</option>
-          <option>North Dakota</option>
-          <option>Northern Mariana Islands</option>
-          <option>Northwest Territories</option>
-          <option>Nova Scotia</option>
-          <option>Nunavut</option>
-          <option>Ohio</option>
-          <option>Oklahoma</option>
-          <option>Ontario</option>
-          <option>Oregon</option>
-          <option>Palau</option>
-          <option>Pennsylvania</option>
-          <option>Prince Edward Island</option>
-          <option>Puerto Rico</option>
-          <option>Quebec</option>
-          <option>Rhode Island</option>
-          <option>Saskatchewan</option>
-          <option>South Carolina</option>
-          <option>South Dakota</option>
-          <option>Tennessee</option>
-          <option>Texas</option>
-          <option>Utah</option>
-          <option>Vermont</option>
-          <option>Virgin Islands</option>
-          <option>Virginia</option>
-          <option>Washington</option>
-          <option>West Virginia</option>
-          <option>Wisconsin</option>
-          <option>Wyoming</option>
-          <option>Yukon Territory</option>
-        </select>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
-        <label for="postal">*Postal code:</label>
-        <input name="postal" id="postal">
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
-        <label for="phone">Phone number:</label>
-        <input name="phone" id="phone">
-      </div>
-    </div>
-    </fieldset>
-    <fieldset>
-      <legend class="giga">BILLING INFORMATION</legend>
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
-          <p>Enter your billing address and information here.</p>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter">
-          <input id="billing" type="checkbox">
-          <label for="billing">My billing information is the same as my delivery information.</label>
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-          <label for="first-name-2">*First name:</label>
-          <input name="first-name-2" id="first-name-2">
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-          <label for="last-name-2">*Last name:</label>
-          <input name="last-name-2" id="last-name-2">
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-          <label for="street-2">*Street address:</label>
-          <input name="street-2" id="street-2">
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-          <label for="city-2">*City:</label>
-          <input name="city-2" id="city-2">
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-          <label for="country-2">*Country:</label>
-          <select name="country-2" id="country-2">
-            <option>United States</option>
-            <option>Canada</option>
-          </select>
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter">
-          <label for="state-2">*State/Province:</label>
-          <select name="state-2" id="state-2">
-            <option>Alabama</option>
-            <option>Alaska</option>
-            <option>Alberta</option>
-            <option>American Samoa</option>
-            <option>Arizona</option>
-            <option>Arkansas</option>
-            <option>Armed Forces Africa</option>
-            <option>Armed Forces Americas</option>
-            <option>Armed Forces Canada</option>
-            <option>Armed Forces Europe</option>
-            <option>Armed Forces Middle East</option>
-            <option>Armed Forces Pacific</option>
-            <option>British Columbia</option>
-            <option>California</option>
-            <option>Colorado</option>
-            <option>Connecticut</option>
-            <option>Delaware</option>
-            <option>District of Columbia</option>
-            <option>Federated States of Micronesia</option>
-            <option>Florida</option>
-            <option>Georgia</option>
-            <option>Guam</option>
-            <option>Hawaii</option>
-            <option>Idaho</option>
-            <option>Illinois</option>
-            <option>Indiana</option>
-            <option>Iowa</option>
-            <option>Kansas</option>
-            <option>Kentucky</option>
-            <option>Louisiana</option>
-            <option>Maine</option>
-            <option>Manitoba</option>
-            <option>Marshall Islands</option>
-            <option>Maryland</option>
-            <option>Massachusetts</option>
-            <option>Michigan</option>
-            <option>Minnesota</option>
-            <option>Mississippi</option>
-            <option>Missouri</option>
-            <option>Montana</option>
-            <option>Nebraska</option>
-            <option>Nevada</option>
-            <option>New Brunswick</option>
-            <option>New Hampshire</option>
-            <option>New Jersey</option>
-            <option>New Mexico</option>
-            <option>New York</option>
-            <option>Newfoundland</option>
-            <option>North Carolina</option>
-            <option>North Dakota</option>
-            <option>Northern Mariana Islands</option>
-            <option>Northwest Territories</option>
-            <option>Nova Scotia</option>
-            <option>Nunavut</option>
-            <option>Ohio</option>
-            <option>Oklahoma</option>
-            <option>Ontario</option>
-            <option>Oregon</option>
-            <option>Palau</option>
-            <option>Pennsylvania</option>
-            <option>Prince Edward Island</option>
-            <option>Puerto Rico</option>
-            <option>Quebec</option>
-            <option>Rhode Island</option>
-            <option>Saskatchewan</option>
-            <option>South Carolina</option>
-            <option>South Dakota</option>
-            <option>Tennessee</option>
-            <option>Texas</option>
-            <option>Utah</option>
-            <option>Vermont</option>
-            <option>Virgin Islands</option>
-            <option>Virginia</option>
-            <option>Washington</option>
-            <option>West Virginia</option>
-            <option>Wisconsin</option>
-            <option>Wyoming</option>
-            <option>Yukon Territory</option>
-          </select>
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
-          <label for="postal-2">*Postal code:</label>
-          <input name="postal-2" id="postal-2">
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
-          <label for="phone-2">Phone number:</label>
-          <input name="phone-2" id="phone-2">
-        </div>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend class="giga">COUPON DISCOUNT</legend>
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
-          <p>Enter a coupon code for this order.</p>
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
-          <label for="coupon">Coupon code:</label>
-          <input name="coupon" id="coupon">
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter pad-b">
-          <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 btn-apply" href="adopt.html">Apply to order</a>
-        </div>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend class="giga">PAYMENT METHOD</legend>
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 gutter">
-          <p>Your billing information must match the billing address for the credit card entered below or we will be unable to process your payment.</p>
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
-          <label for="type">Card Type:</label>
-          <select name="type" id="type">
-            <option>Visa</option>
-            <option>Mastercard</option>
-            <option>Discover</option>
-            <option>American Express</option>
-          </select>
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
-          <label for="number">Card Number:</label>
-          <input name="number" id="number">
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t gutter pad-b">
-          <label for="date">Expiration Date:</label>
-          <select name="date" id="date">
-            <option>01 - January</option>
-            <option>02 - February</option>
-            <option>03 - March</option>
-            <option>04 - April</option>
-            <option>05 - May</option>
-            <option>06 - June</option>
-            <option>07 - July</option>
-            <option>08 - August</option>
-            <option>09 - September</option>
-            <option>10 - October</option>
-            <option>11 - November</option>
-            <option>12 - December</option>
-          </select>
-        </div>
-        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 pad-t-2 gutter pad-b">
-          <label for="year"></label>
-          <select name="year" id="year">
-            <option>2018</option>
-            <option>2019</option>
-            <option>2020</option>
-            <option>2021</option>
-            <option>2022</option>
-            <option>2023</option>
-            <option>2024</option>
-            <option>2025</option>
-            <option>2026</option>
-            <option>2027</option>
-            <option>2028</option>
-            <option>2029</option>
-            <option>2030</option>
-            <option>2031</option>
-            <option>2032</option>
-            <option>2033</option>
-            <option>2034</option>
-            <option>2035</option>
-            <option>2036</option>
-            <option>2037</option>
-            <option>2038</option>
-          </select>
-        </div>
-        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 pad-t gutter pad-b">
-          <label for="cvv">CVV:</label>
-          <input name="cvv" id="cvv">
-        </div>
-      </div>
-    </fieldset>
-    <div class="gutter pad-b-2">
-      <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 btn giga" href="index.html">Submit order</a>
-      <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 btn giga" href="rescues.html">Cancel</a>
-    </div>
-  </form>
+    </form>
+  </main>
 
   <footer role="contentinfo">
     <nav>

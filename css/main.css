@@ -9,20 +9,6 @@ h1 {
   color: #0fd4cb;
 }
 
-.btn-light {
-  background-color: #0fd4cb;
-  border-radius: 50px;
-  border-color: #0fd4cb;
-  color: #0f4062;
-}
-
-.btn-light:hover {
-  background-color: #e3671e;
-  border-radius: 50px;
-  border-color: #e3671e;
-  color: #0f4062;
-}
-
 a {
   text-decoration: none;
   color: #0f4062;
@@ -46,18 +32,6 @@ nav {
 
 .logo {
   font-family: "Cinzel Decorative", cursive;
-}
-
-.btn-apply {
-  background-color: #0fd4cb;
-  border-color: #0fd4cb;
-  color: #fff;
-}
-
-.btn-apply:hover {
-  background-color: #e3671e;
-  border-color: #e3671e;
-  color: #fff;
 }
 
 .hover-box {
@@ -93,20 +67,40 @@ nav {
   filter: brightness(50%);
 }
 
+button, input, optgroup, select, textarea {
+  color: #0f4062;
+}
+
 .btn {
   background-color: #0fd4cb;
-  border-radius: 50px;
-  border-color: #0fd4cb;
   color: #0f4062;
 }
 
 .btn {
   background-color: #e3671e;
-  border-radius: 50px;
-  border-color: #e3671e;
   color: #0f4062;
 }
 
-button, input, optgroup, select, textarea {
+.btn-light {
+  background-color: #0fd4cb;
   color: #0f4062;
+}
+
+.btn-light:hover {
+  background-color: #e3671e;
+  color: #0f4062;
+}
+
+.btn-ghost {
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  color: #0f4062;
+  background-color: #e3671e;
+}
+
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+  color: #0fd4cb;
 }
