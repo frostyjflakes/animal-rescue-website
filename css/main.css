@@ -1,11 +1,11 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   color: #fff;
   background-color: #0f4062;
 }
 
 h1 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   color: #0fd4cb;
 }
 
@@ -45,7 +45,7 @@ nav {
 }
 
 .logo {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
 }
 
 .btn-apply {
